@@ -88,7 +88,7 @@ const Players = () => {
           ))}
         </div>
       </div>
-      <Link to="Match"> <button className="proceed-button" onClick={proceedToGame}>
+      <Link to="/Match"> <button className="proceed-button" onClick={proceedToGame}>
         Proceed to Game
       </button></Link>
       

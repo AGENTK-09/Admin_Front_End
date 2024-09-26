@@ -1,4 +1,4 @@
-// Match Table (Table-3)
+
 
 import React, { useState } from 'react';
 import './Match.css';
