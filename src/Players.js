@@ -13,7 +13,7 @@ const Players = () => {
     { name: "Sandy", selected: false , position : "Stricker"},
     { name: "Seethu", selected: false , position : "Non- Stricker"},
     { name: "Karthick", selected: false , position : "Non- Stricker"},
-    { name: "Guru", selected: false , position : "Non- Stricker"},
+    { name: "Guru", selected: false ,  position : "Non- Stricker"},
     { name: "Root", selected: false , position : "Non- Stricker"},
     { name: "Messi", selected: false , position : "Non- Stricker"},
     { name: "Dhoni", selected: false , position : "Non- Stricker"},

@@ -1,25 +1,22 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, BrowserRouter} from 'react-router-dom';
 import Create from './Create';
 import Players from './Players';
 import Match from './Match';
 
 function App() {
     return (
-        <>
-            <nav>
-                <ul>
-                    <li><Link to="/">Create Match</Link></li>
-                    <li><Link to="/players">Players</Link></li>
-                    <li><Link to="/match">Match</Link></li>
-                </ul>
-            </nav>
-            <Routes>
-                <Route path="/" element={<Create />} />
-                <Route path="players" element={<Players />} />
-                <Route path="match" element={<Match />} />
-            </Routes>
-        </>
+        <div className="App">
+        <BrowserRouter>
+        <Routes>
+         <Route path="/" element={<Create />}> </Route>
+         <Route path="/Players" element={<Players />}> </Route>
+         <Route path="/Match" element={<Match />}> </Route>
+         </Routes>
+         </BrowserRouter>
+       
+       </div>
+        
     );
 }
 

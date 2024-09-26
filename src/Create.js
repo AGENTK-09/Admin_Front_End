@@ -3,7 +3,7 @@ import './Create.css';
 import { Link, Outlet } from 'react-router-dom';
 
 function Create() {
-  const Teams = ['Team - A ', 'Team - B'];
+  const Teams = ['Team A ', 'Team B'];
 
   const [team1, setTeam1] = useState('');
   const [team2, setTeam2] = useState('');
