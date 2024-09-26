@@ -1,0 +1,65 @@
+/* Match Table - table 3 */
+
+.scoreboard-container {
+  background: linear-gradient(#A9F1DF,#FFBBBB);
+  height: 65vh;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.teams-scores {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.team-score {
+  width: 45%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.players-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  width: 100px;
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.balls-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.end-innings-button {
+  width: 100%;
+  padding: 15px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
