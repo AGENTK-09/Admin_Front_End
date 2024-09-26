@@ -6,31 +6,31 @@ import { Link } from "react-router-dom";
 
 const Players = () => {
   const [team1Players, setTeam1Players] = useState([
-    { name: "Sandhiya", selected: false },
-    { name: "Seetha", selected: false },
-    { name: "Sanjay", selected: false },
-    { name: "Shiva ", selected: false },
-    { name: "Sandy", selected: false },
-    { name: "Seethu", selected: false },
-    { name: "Karthick", selected: false },
-    { name: "Guru", selected: false },
-    { name: "Root", selected: false },
-    { name: "Messi", selected: false },
-    { name: "Dhoni", selected: false },
+    { name: "Sandhiya", selected: false , position : "Stricker"},
+    { name: "Seetha", selected: false , position : "Stricker"},
+    { name: "Sanjay", selected: false , position : "Stricker"},
+    { name: "Shiva ", selected: false , position : "Stricker"},
+    { name: "Sandy", selected: false , position : "Stricker"},
+    { name: "Seethu", selected: false , position : "Non- Stricker"},
+    { name: "Karthick", selected: false , position : "Non- Stricker"},
+    { name: "Guru", selected: false , position : "Non- Stricker"},
+    { name: "Root", selected: false , position : "Non- Stricker"},
+    { name: "Messi", selected: false , position : "Non- Stricker"},
+    { name: "Dhoni", selected: false , position : "Non- Stricker"},
   ]);
 
   const [team2Players, setTeam2Players] = useState([
-    { name: "Subbu", selected: false },
-    { name: "jeeva", selected: false },
-    { name: "Akshaya", selected: false },
-    { name: "Parameshwaram", selected: false },
-    { name: "Raj", selected: false },
-    { name: "Joe", selected: false },
-    { name: "Jack", selected: false },
-    { name: "William", selected: false },
-    { name: "Ronaldo", selected: false },
-    { name: "Rohit", selected: false },
-    { name: "Pandya", selected: false },
+    { name: "Subbu", selected: false , position:"Bowler"},
+    { name: "jeeva", selected: false , position:"Bowler"},
+    { name: "Akshaya", selected: false , position : "Bowler"},
+    { name: "Parameshwaram", selected: false , position: "Bowler"},
+    { name: "Raj", selected: false , position : "Bowler"},
+    { name: "Joe", selected: false , position: "Bowler"},
+    { name: "Jack", selected: false , position : "Bowler"},
+    { name: "William", selected: false , position : "Bowler"},
+    { name: "Ronaldo", selected: false , position : "Bowler"},
+    { name: "Rohit", selected: false, position : "Bowler"},
+    { name: "Pandya", selected: false ,position : "Bowler"},
   ]);
 
   const handleCheckboxChange = (team, index) => {
